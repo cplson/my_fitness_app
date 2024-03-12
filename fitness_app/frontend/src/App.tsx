@@ -1,10 +1,13 @@
 import "./App.css";
+import React from "react";
 import LandingPage from "./components/landingPage/LandingPage";
 
 function App() {
   return (
-    <div class="bg-slate-500" className="App">
-      <LandingPage />
+    <div className="App">
+      <div className="bg-stone-200 h-screen w-full">
+        <LandingPage />
+      </div>
     </div>
   );
 }

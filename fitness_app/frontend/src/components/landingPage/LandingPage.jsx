@@ -2,8 +2,10 @@ import React from "react";
 
 const LandingPage = () => {
   return (
-    <div class="bg-slate-500">
-      <h1 class="text-3xl">Dayyum!</h1>
+    <div class="h-full w-full">
+      <div class="w-3/5 m-auto">
+        <h1 class="text-3xl bg-blue-300">Dayyum!</h1>
+      </div>
     </div>
   );
 };
