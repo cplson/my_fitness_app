@@ -4,6 +4,7 @@ import {
   RouterProvider,
   createBrowserRouter,
 } from "../node_modules/react-router-dom/dist/index";
+import CredentialPage from "./components/credentialPage/CredentialPage";
 
 function App() {
   const router = createBrowserRouter([
@@ -13,7 +14,7 @@ function App() {
     },
     {
       path: "/login",
-      element: <h1>login</h1>,
+      element: <CredentialPage />,
     },
     {
       path: "/user",
